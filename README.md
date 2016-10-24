@@ -18,7 +18,9 @@ update request to the tracking service.
 
 **Consists of 2 components**
 *A Front End server*  that hides replication management from the client, this communicates with one or more
-*Replica Managers (RM)*, providingg replication transparency. 
+
+*Replica Managers (RM)*, providing replication transparency. 
+
 Each RM is a replication of one service to update and search for tram locations, 
 this allows for the opportunity of multicasting and overall robustness.
 
